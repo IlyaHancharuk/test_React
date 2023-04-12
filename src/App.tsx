@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Accordion from './Components/Accordion/Accordion';
+import OnOff from './Components/OnOff/OnOff';
+import Counter from './Components/Counter/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Accordion titleValue={'Menu 1'} />
+      <Accordion titleValue={'Munu 2'} />
+      <OnOff isOn={true} />
+      <OnOff isOn={false} /> */}
+
+      <Counter />
+
     </div>
   );
 }
